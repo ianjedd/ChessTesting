@@ -6,7 +6,7 @@ stockfish.update_engine_parameters({"Hash": 8196, "Threads": 8})
 #stockfish.set_position(["b2b3", "d7d5", "d2d4", "b8c6"])
 #stockfish.set_position(["b2b3", "e7e5"])
 #stockfish.set_position(["b2b3", "e7e5", "e2e4", "g8f6", "b1c3", "f8c5"])
-stockfish.set_position(["b2b3", "e7e5", "c1b2", "b8c6"])
+stockfish.set_position(["b2b3", "e7e5", "c1b2", "b8c6", "e2e3", "d7d5"])
 data = []
 for i in range(100):
     data.append(stockfish.get_best_move_time(3))
