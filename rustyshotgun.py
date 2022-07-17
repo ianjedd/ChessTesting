@@ -4,7 +4,7 @@ stockfish = Stockfish()
 stockfish.set_depth(20)
 stockfish.update_engine_parameters({"Hash": 8196, "Threads": 8})
 
-stockfish.set_position(["b2b3", "d7d5", "d2d4", "b8c6", "c1b2", "c8g4", "h2h3", "g4h5"])
+stockfish.set_position(["e2e4", "d7d5", "e4d5", "d8d5", "b1c3", "d5e6", "f1e2"])
 
 def getData(n, timeToSolve):
     start = time.time()
@@ -30,8 +30,8 @@ def go(n, t):
     counted = count_elements(data)
     print(counted)
 
-go(1,0.05)
-go(250, 0.15)
+go(1,1)
+go(500, 3)
 go(20,20)
 go(40,40)
 go(1,1500)
