@@ -4,7 +4,7 @@ stockfish = Stockfish()
 stockfish.set_depth(20)
 stockfish.update_engine_parameters({"Hash": 8196, "Threads": 8})
 
-stockfish.set_position(["e2e4", "d7d5", "e4d5", "d8d5", "b1c3", "d5e6", "f1e2"])
+stockfish.set_position(["e2e4", "d7d5", "e4d5", "d8d5", "b1c3", "d5d8", "d2d4"])
 
 def getData(n, timeToSolve):
     start = time.time()
